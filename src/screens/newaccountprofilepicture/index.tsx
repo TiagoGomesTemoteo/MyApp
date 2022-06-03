@@ -28,13 +28,16 @@ export function NewAccountProfilePicture() {
           style={styles.imageLogo}
           resizeMode="stretch"
         />
+        <Text style={styles.title}>
+          Para finalizar, insira uma foto de perfil {"\n"}
+        </Text>
         <Image
           source={imagemPerfil}
           style={styles.image}
           resizeMode="stretch"
         />
 
-        <Text style={styles.title}>
+        <Text style={styles.subtitle}>
           Selecionar foto de perfil {"\n"}
         </Text>
 

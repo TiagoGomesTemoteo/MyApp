@@ -35,7 +35,8 @@ export const styles = StyleSheet.create({
   controlsbutons: {
     marginTop: 30,
     width: '100%',
-    paddingHorizontal: 35
+    paddingHorizontal: 35,
+    borderRadius: 100,
   },
   controls: {
     marginTop: 0,
@@ -61,8 +62,8 @@ export const styles = StyleSheet.create({
     marginBottom: 15
   },
   subtitle: {
-    color: theme.colors.primary,
-    fontSize: 15,
+    color: theme.colors.overlay,
+    fontSize: 30,
     textAlign: 'left',
     marginBottom: 10,
     fontFamily: theme.fonts.title500,

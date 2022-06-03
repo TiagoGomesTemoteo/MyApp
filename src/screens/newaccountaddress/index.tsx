@@ -32,7 +32,7 @@ export function NewAccountAddress() {
 
             <View style={styles.content}>
 
-                <Text style={styles.subtitle}>
+                <Text style={styles.title}>
                    Para começar, insira seu endereço {'\n'} 
                 </Text>
 

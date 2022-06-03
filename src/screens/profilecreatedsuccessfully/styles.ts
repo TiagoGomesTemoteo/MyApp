@@ -17,8 +17,8 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 35
   },
   image: {
-    width: '100%',
-    height: 360,
+    width: 330,
+    height: 330,
   },
   imageLogo: {
     marginTop: 20,
@@ -32,15 +32,15 @@ export const styles = StyleSheet.create({
     color: theme.colors.secondary100,
     textAlign: 'center',
     fontWeight: 'bold',
-    fontSize: 40,
+    fontSize: 35,
     marginBottom: 16,
     fontFamily: theme.fonts.title700,
     lineHeight: 40
   },
   subtitle: {
     color: theme.colors.primary,
-    fontSize: 18,
-    textAlign: 'left',
+    fontSize: 14,
+    textAlign: 'center',
     marginBottom: 40,
     fontFamily: theme.fonts.title500,
     lineHeight: 25

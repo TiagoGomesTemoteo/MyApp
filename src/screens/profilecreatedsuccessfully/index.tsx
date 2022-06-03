@@ -31,7 +31,7 @@ export function ProfileCreatedSuccessfully() {
         />
 
         <Text style={styles.title}>
-          Seu perfil foi criado com sucesso {"\n"}
+          Seu perfil foi criado com sucesso! {"\n"}
         </Text>
         
         <View style={styles.content}>

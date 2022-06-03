@@ -32,7 +32,7 @@ export function NewAccountData() {
 
             <View style={styles.content}>
 
-                <Text style={styles.subtitle}>
+                <Text style={styles.title}>
                     Insira os dados da sua conta {'\n'} 
                 </Text>
 

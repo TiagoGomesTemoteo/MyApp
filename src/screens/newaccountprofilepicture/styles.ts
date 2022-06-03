@@ -17,12 +17,12 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 35
   },
   image: {
-    width: '100%',
-    height: 360,
+    width: 270,
+    height: 270,
   },
   imageLogo: {
     marginTop: 20,
-    marginBottom: 130
+    marginBottom: 20
   },
   content: {
     marginTop: -50,
@@ -32,7 +32,7 @@ export const styles = StyleSheet.create({
     color: theme.colors.secondary100,
     textAlign: 'center',
     fontWeight: 'bold',
-    fontSize: 40,
+    fontSize: 35,
     marginBottom: 16,
     fontFamily: theme.fonts.title700,
     lineHeight: 40
